@@ -61,7 +61,7 @@ class MRTusGame(BaseModel):
         return trial
 
 class MRTusGameSet(LObject):
-    dictionnary: List[str] = field(DEFAULT_DICT, list)
+    dictionnary: List[str] = field(default=DEFAULT_DICT)
     games: List[MRTusGame] = field(default_factory=list)
 
     def new_game(self) -> MRTusGame:

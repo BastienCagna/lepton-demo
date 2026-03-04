@@ -13,7 +13,7 @@
             "name": "Server",
             "type": "debugpy",
             "request": "launch",
-            "program": "back/__main__.py",
+            "program": "backend/lepton_demo/__main__.py",
             "args": [],
             "env": {
             },
